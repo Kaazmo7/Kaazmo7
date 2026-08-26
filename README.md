@@ -7,6 +7,7 @@ I build tools I actually end up using for CTFs, CCDC prep, and everyday dev work
 Flagship projects:
 - [NetSentry-IDS](https://github.com/Kaazmo7/netsentry-ids) — Network intrusion detection engine: custom Snort-style signature DSL, four stateful anomaly detectors (port scan, ARP spoofing, DNS tunneling, C2 beaconing), MITRE ATT&CK-tagged alerts, 26 tests
 - [ModbusGuard](https://github.com/Kaazmo7/modbusguard) — ICS/OT security toolkit: from-scratch Modbus TCP protocol implementation, an unauthenticated PLC simulator, and an inline detect/prevent security monitor mapped to MITRE ATT&CK for ICS, 30 tests
+- [FieldWarden](https://github.com/Kaazmo7/fieldwarden) — Host-based EDR agent for OT/ICS environments, written in Rust: five detectors modeled on real ICS intrusions (TRITON, EKANS, INCONTROLLER) over from-scratch /proc and inotify telemetry, 31 tests
 
 Bigger projects:
 - [jarvis](https://github.com/Kaazmo7/jarvis) — (Private) Personal AI agent: agentic tool use, persistent memory, multi-provider LLM support
