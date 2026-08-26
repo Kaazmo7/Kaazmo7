@@ -4,6 +4,10 @@ Computer Science & Cyber Operations student at Cedarville University.
 
 I build tools I actually end up using for CTFs, CCDC prep, and everyday dev work, plus the occasional web app when I can't find something that already does what I want. Most of what's in here is private and at very different stages of finish.
 
+Flagship projects:
+- [NetSentry-IDS](https://github.com/Kaazmo7/netsentry-ids) — Network intrusion detection engine: custom Snort-style signature DSL, four stateful anomaly detectors (port scan, ARP spoofing, DNS tunneling, C2 beaconing), MITRE ATT&CK-tagged alerts, 26 tests
+- [ModbusGuard](https://github.com/Kaazmo7/modbusguard) — ICS/OT security toolkit: from-scratch Modbus TCP protocol implementation, an unauthenticated PLC simulator, and an inline detect/prevent security monitor mapped to MITRE ATT&CK for ICS, 30 tests
+
 Bigger projects:
 - [jarvis](https://github.com/Kaazmo7/jarvis) — (Private) Personal AI agent: agentic tool use, persistent memory, multi-provider LLM support
 - [CedarCTF](https://github.com/Kaazmo7/CedarCTF) — (Private) Full-stack CTF competition platform for Cedarville: Django/DRF backend, Next.js frontend, Dockerized
